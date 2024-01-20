@@ -1,0 +1,16 @@
+.services-container{
+  padding:15px 85px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color:#8080801a;
+  margin-top:18px;
+ 
+}
+.services-card{
+    text-align: center;
+    background-color: white;
+    padding:15px;
+    margin: 12px 0px;
+}

@@ -1,0 +1,102 @@
+/* 
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mySlides {
+    /* display: none; */
+/* }
+.SliderImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .SliderImgcontainer >  img {
+    vertical-align: middle;
+    width: 146vh;
+    height: 78vh;
+    align-items: center;
+    transition:all 1.5s ease-in-out;
+}
+
+i.fa-chevron-right, i.fa-chevron-left{
+  font-size: 62px;
+  padding: 4px 14px;
+  color:#fcba4385;
+  
+} */
+/* Slideshow container */
+/* .slideshow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+     margin-top:44vh; 
+} */
+
+
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+/* .SliderDot{
+    text-align: center;
+    padding:15px 0px;
+} */
+
+/* .active {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+/* .fade {
+  animation-name: fade;
+  animation-duration: 2ms;
+  animation-timing-function: ease-in-out; */
+  /* transition:all 1.5s ease-in-out; */
+/* } */
+
+/* @keyframes fade { */
+  /* from{
+    opacity: 0;
+  }  
+  to{
+    opacity: 1;
+  } */
+/* } */
+/* 
+@media only screen and (max-width: 750px){
+  img{
+    height: auto;
+    width: 100%;
+
+  } 
+} */
+
+
+
+.carousel-item img{
+
+  height: 100vh;
+}

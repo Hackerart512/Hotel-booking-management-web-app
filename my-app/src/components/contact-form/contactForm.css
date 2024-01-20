@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    color: black;
+}
+.contactFormBody{
+    background-image: url("../../../public/IMAGE/contact2.jpg");
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    /* margin-top:74vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactFormContainer{
+    width:60%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 15px;
+    background-color: white;
+    overflow: hidden;
+}
+
+form{
+    width: 100%;
+}
+.firstRow, .secondRow,.fourthRow,.thirdRow{
+    display: flex;
+    
+}
+.FirstRowDiv1, .firstRowdiv2, .secondRowdiv1, .secondRowdiv2, .fourthRowdiv1, .fourthRowdiv2,.thirdRowdiv1, .thirdRowdiv2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.thirdRowdiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+label{
+    color:#c82956;
+}
+input.ContactInput{
+    margin: 2px 4px;
+    height: 32px;
+   /* width: 272px; */
+} 
+
+button.contactButton{
+    margin:auto;
+    width: 22vh;
+    height: 7vh;
+    border: 1px solid black;
+    border-radius:6px;
+    background-color: #ff0000b8;
+    color: white;
+    margin: 7px 0px;
+}
+
+textarea#exampleInputTextarea{
+  resize: none;
+  /* width: 100%; */
+}
+/* contact info */
+.IfoMapContainer{
+    width: 30%;
+    margin: 0px 12px;
+}
+.ContactInfo{
+    width: 100%;
+    background-color :#203f56;
+    color:white;
+    padding: 12px;
+}
+i.icons1{
+    color:white;
+    margin: 0px 6px;
+    background-color: #11d8ee;
+    border-radius:50%;
+    padding: 7px;
+    font-size: 14px;
+}
+i.icons{
+    color: white;
+    margin: 0px 1px;
+    font-size: 25px;
+    padding: 7px;
+}
+.ContactInfoHeading{
+    color:white;
+}
+
+.iconePera > p{
+    color:white;
+    margin:9px 0px;
+}
+iframe{
+    margin: 9px 0px;
+}
+
+
+@media only screen and (max-width:1000px){
+    .contactFormBody{
+        flex-direction: column;
+    }
+    .contactFormContainer{
+        width: 90%;
+        margin: 15px;
+    }
+    .IfoMapContainer{
+        width: 90%;
+    }
+    iframe{
+        width: 100%;
+        height: 70vh;
+    }
+    
+}
+    

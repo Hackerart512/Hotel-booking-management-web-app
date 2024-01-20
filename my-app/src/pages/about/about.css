@@ -1,0 +1,32 @@
+/*  --> included About.css in index.css <-- */
+
+/* Heading design */
+*{
+  margin-top:0px;
+}
+
+
+span{
+   color:orange;
+}
+
+
+
+.Img_AboubtUs{
+  margin-top:31vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Img_AboubtUs img{
+  margin:auto;
+  width: 70%;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 807px){
+  h1{
+    font-size:2.5rem;
+  }
+ 
+}

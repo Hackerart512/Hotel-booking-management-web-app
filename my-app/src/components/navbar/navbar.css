@@ -1,0 +1,279 @@
+/* --------------------------- NAVBAR DESIGN ------------------------- */
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+#nav {
+  display: block;
+  height: 11vh;
+}
+
+
+/* logo image style  */
+#nav img {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 28%;
+}
+
+
+
+/*  ********************  Navigation bar design ******************* */
+.navbar1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  float: right;
+  transition: all 0.6s;
+
+}
+
+.navbar1 ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* just in */
+ul.ul-navbar>li {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  margin: 4px 0px;
+  position: relative;
+}
+.navbar1 ul.ul-navbar li ul{
+  display: none;
+}
+
+.navbar1 ul.ul-navbar li ul {
+  transition: all 3.5s ease-in-out;
+  flex-direction: column;
+  position: absolute;
+  left:11px;
+  top: 32px;
+  background-color: white;
+  padding:2px;
+  height: auto;
+  width: 115px;
+  border-radius: 6px ;
+}
+
+.navbar1 ul.ul-navbar li:hover ul {
+       background-color: white;
+       display: flex;
+}
+.navbar1 ul.ul-navbar li ul li{
+   background-color:white;
+   width:100%;
+}
+
+.navbar1 ul.ul-navbar li ul li a{
+  color:black;
+}
+
+.navbar1 ul.ul-navbar li ul li:hover{
+  background-color: orange;
+}
+.navbar1 ul.ul-navbar li ul li a:hover{
+  border-radius: 0px;
+  background-color: orange;
+  color:white;
+}
+.navbar1 ul li a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 0px 0px;
+  font-size: 14px;
+  border-radius: 14px;
+  transition: all 0.5s;
+  color: white;
+  font-family: "Helvetica Neue", "Helvetica";
+}
+
+.navbar1 ul li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 14px;
+}
+
+.navbar1 ul li a.active1 {
+  background-color: orange;
+  border: 1px solid white;
+  color: white;
+}
+
+.navbar1 ul li a.active1:hover {
+  background-color: orange;
+  border: 1px solid white;
+  color: white;
+}
+
+
+.navbar1 ul li a.active {
+  background-color: white;
+  color: black;
+  border-radius: 14px;
+}
+
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn {
+  display: none;
+  float: right;
+  color: white;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+  margin: 10px 17px;
+  width: 40px;
+  height: 41px;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 29px;
+  height: 4px;
+  background-color: white;
+  margin: 5px 4px;
+  color: transparent;
+  text-align: center;
+  transition: all 0.8s;
+  border-radius: 10px;
+
+}
+
+
+.change1 {
+  transform: translate(0, 9px) rotate(-45deg);
+}
+
+.change2 {
+  opacity: 0;
+}
+
+.change3 {
+  transform: translate(0, -9px) rotate(45deg);
+}
+
+.menu_navbar {
+  display: none;
+  width: 100%;
+  color: red;
+  background-color: red;
+}
+
+.lorem {
+  padding-left: 20px;
+  color: white;
+}
+
+.navbar1.active {
+  height: 50vh;
+  background-color: #3e486a;
+  opacity: 1;
+  height: auto;
+}
+
+.navbar1.active ul {
+  opacity: 1;
+}
+
+a.navbar-brand {
+  font-size: 38px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Neuton', serif;
+  text-shadow: #000000 2px 3px 3px;
+}
+
+a.navbar-brand:hover {
+  color: white;
+}
+
+@media only screen and (max-width:571px) {
+  a.navbar-brand {
+    font-size: 27px;
+  }
+
+}
+
+@media only screen and (max-width:1092px) {
+
+  #nav {
+    /* width: 164vh; */
+    height: 13vh;
+  }
+
+  #nav::before {
+    background-size: 100% 100%;
+    background-position: top;
+    background-clip: border-box;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .navbar1 {
+    position: absolute;
+    top: 64px;
+    margin: auto;
+    width: 100%;
+    transition: all 0.8;
+    overflow: hidden;
+
+  }
+
+  .navbar1 ul {
+    flex-direction: column;
+    opacity: 0;
+  }
+
+}
+
+@media only screen and (max-width: 807px) {
+
+  /* NAVBAR */
+  #nav::before {
+    width: 100%;
+    background-size: 140% 100%;
+    background-position: top;
+    background-clip: border-box;
+  }
+
+  #nav {
+    width: 100%;
+  }
+
+  .navbar1 {
+    width: 100%;
+    top: 64px;
+  }
+
+  #nav img {
+    width: 50%;
+  }
+
+}

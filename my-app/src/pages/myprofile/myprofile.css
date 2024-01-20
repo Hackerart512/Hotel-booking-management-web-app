@@ -1,0 +1,32 @@
+.myPeofileBody{
+    background-color:#f6f6f7;
+    height: auto;
+}
+
+.ProfileDescription{
+    width:80%;
+    height: auto;
+}
+
+.Profilecard {
+    width:26%;
+    /* width:43vh; */
+    height:auto;
+    background-color: white;
+}
+.Profilecard > img{
+    width:100%;
+    height:auto;
+}
+
+.ProfileCardDescription{
+    font-size: 14px;
+}
+
+.ProfileCardDescription > strong{
+    font-size: 12px;
+}
+
+.ProfilecardUpdate{
+  width:70%
+}

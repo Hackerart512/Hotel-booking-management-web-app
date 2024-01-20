@@ -1,0 +1,25 @@
+.alert-box{
+    position:fixed;
+    color:white;
+    height:42vh;
+    width:68vh;
+    border:1px solid black;
+    top:2px;
+    left:398px;
+    background-color:white;
+}
+.alert-Img img{
+    width: 20px;
+    height: 20px;
+    text-align:center
+}
+
+h2.alert-heading{
+    font-size: 20px;
+    text-align:center}
+
+.alert-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

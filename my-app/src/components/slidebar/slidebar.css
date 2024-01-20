@@ -1,0 +1,114 @@
+.slidebar {
+    background-color: #313645;
+    height: auto;
+    width: 50vh;
+    min-height: 100vh;
+}
+
+.slider {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px 2px;
+}
+
+.ul-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ul-slider>li {
+    width: 100%;
+    padding-top: 11px;
+    display: flex;
+    position: relative;
+
+}
+
+.ul-slider>li>a {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    margin: 0px 13px;
+    width: 100%;
+}
+
+.ul-slider>li:hover {
+    background-color: #34445d;
+}
+
+.dropdown-dash, .dropdown-dash1, .dropdown-dash-type{
+    background-color: #313645;
+    overflow: hidden;
+    height: 0px;
+    margin-top:12px;
+    width: 100%;
+    transition: height 0.5s ease-in-out;
+}
+.dropdown-dash> a{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    /* margin: 0px 13px; */
+    width: 100%;
+    padding:0px 57px;
+
+}
+
+.show {
+    height: 90px;
+}
+.show > a:hover{
+    background-color: #34445d;
+} 
+
+#arrow, #arrow1, #arrow-type{
+    color: white;
+    position: absolute;
+    right: 31px;
+}
+.arrow {
+    transform: rotate(180deg);
+    transition: 0.9s ease;
+    color:black;
+}
+
+/* ------------------- */
+
+/* Facilities  dropdown */
+.dropdown-dash1> a{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    /* margin: 0px 13px; */
+    width: 100%;
+    padding:0px 57px;
+}
+.dropdown-dash-type> a{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    /* margin: 0px 13px; */
+    width: 100%;
+    padding:0px 57px;
+}
+
+
+

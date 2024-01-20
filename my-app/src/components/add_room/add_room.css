@@ -1,0 +1,9 @@
+form.add-room-form{
+    display: flex;
+    flex-direction: column
+}
+
+input#file-upload-button{
+    background-color: red;
+    color:red;
+}

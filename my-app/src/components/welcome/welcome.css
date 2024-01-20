@@ -1,0 +1,24 @@
+
+#reception {
+  width: 100%;
+  height: auto;
+}
+
+.receptionimg img{
+    height: auto;
+    width: 100%
+}
+
+.rece-discription > a.about-btn{
+  color:white;
+  background-color:red;
+  font-size: 19px;
+  padding: 5px 19px;
+  text-decoration: none;
+  border-radius:4px;
+}
+
+h1.BestHOlidayheading{
+  text-align: left;
+  text-align: left;
+}

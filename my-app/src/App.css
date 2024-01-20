@@ -1,0 +1,117 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* .,.,,..,.., */
+#nav.home::before{
+  position:absolute;
+  top:0px;
+  content: " ";
+  background: url("../public/IMAGE/taj-falaknuma-palace.png") no-repeat;
+  /* background: url("https://source.unsplash.com/random/?hotel") no-repeat; */
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 110%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#nav.about::before{
+    position:absolute;
+    top:0px;
+    content: " ";
+    background: url("../public/IMAGE/tvroom.jpeg")   no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0;
+}
+
+#nav.contact::before{
+    position:absolute;
+    top:0px;
+    content: " ";
+    background: url("../public/IMAGE/contact1.jpg") no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0;
+}
+
+#nav.gallery::before{
+    position:absolute;
+    top:0px;
+    content: " ";
+    background: url("../public/IMAGE/Orange_bedroom.JPG") no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center center;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0;
+}
+#nav.showroom::before{
+    position:absolute;
+    top:0px;
+    background-color: #efbe63;
+    content: " ";
+    width: 100%;
+    height:11%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0;
+}
+
+#nav.myprofile1{
+     background-color: #efbe63;
+}
+
+#nav.mybooking1{
+     background-color:#7ed5d5;
+     z-index: 5;
+     position: relative;
+}

@@ -1,0 +1,9 @@
+.mybooking{
+    background-image:url("../../../public/IMAGE/mybooking.jpeg");
+    height:100vh;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat:no-repeat;
+  
+}
+

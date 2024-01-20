@@ -1,0 +1,113 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1.GalleryHeading{
+   color:white;
+} 
+
+.image-gallery{
+    background-color: #f5dcd8;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 19px 19px;
+}
+
+.buttons-container{
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons-container button{
+    
+    width: 23%;
+    height: 36px;
+    background-color: white;
+    border-radius:6px;
+    border:0px;
+    margin: 2px 2px;
+    flex-grow: 1;
+}
+
+button.active{
+    background-color:blue;
+    color:white;
+}
+
+/* image gallery container */
+.show-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    transition: all 0.9s ease;
+    width:100%;
+}
+
+.gallery-card{
+    flex-basis: 51vh;
+    background-color: white;
+    margin: 9px;
+    border-radius: 6px;
+    padding: 3px;
+    animation: card-anime 0.5s ease-in-out;
+}
+
+@keyframes card-anime {
+    0% {
+       transform: scale(0.7);
+    }
+    50%{
+       transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.card-body{
+    background-color:transparent;
+    padding:10px;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gallery-card h3{
+    background-color:transparent;
+}
+.gallery-card p{
+    background-color:transparent;
+}
+.gallery-card img{
+    width:100%;
+    height:36vh;
+    border-radius: 6px;
+}
+
+a.gallery-card-btn{
+    color:white;
+    background-color:red;
+    font-size: 19px;
+    padding: 5px 19px;
+    text-decoration: none;
+    border-radius:4px;
+}
+
+/* ------------------------------------------------------------- */
+       /* button clicker css */
+/* ------------------------------------------------------------- */
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}

@@ -1,0 +1,40 @@
+*{
+    margin-top:0px;
+}
+
+
+.Heading-container{
+   height:51vh;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items:center;
+   width:100%;
+
+}
+
+.block{
+    text-align: center;
+    padding: 12px 12px;
+    font-size: 21px;
+    color: black;
+    z-index: -1;
+    box-shadow: 2px 2px 12px rgb(122, 117, 117);
+    background-color:white;
+ } 
+
+ h1.aboutMainHeading{
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin:26px 12px;
+}
+ @media only screen and (max-width: 807px){
+    .block{
+    font-size:16px;
+  }
+  h1.aboutMainHeading{
+    font-size:2rem;
+  }
+ 
+}

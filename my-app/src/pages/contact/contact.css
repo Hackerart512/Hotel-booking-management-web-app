@@ -1,0 +1,14 @@
+*{
+    margin-top:0px;
+  }
+
+  .Gif_contactUs{
+    display: flex;
+    justify-content: center;
+  }
+  .Gif_contactUs img{
+    margin:auto;
+    width: 80%;
+    height: 100vh;
+  }
+
